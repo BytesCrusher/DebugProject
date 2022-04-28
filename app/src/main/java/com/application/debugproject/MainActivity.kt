@@ -8,6 +8,8 @@ import com.application.debugproject.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+    //здесь отработаю добавление сложной разметки внутрь вывода информации в RecyclerView
+
     private val users = listOf<User>(
         User(
             name = "Иван Петров",
